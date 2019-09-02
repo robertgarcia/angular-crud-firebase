@@ -17,4 +17,4 @@ Deben copiar el link de la base de datos que aparece en firebase y agregarlo en 
 
 ## Development server
 
-Ejecutar `npm install` para instalar todas las dependecias del proyecto, luego ejectar `ng serve -o`.
+Ejecutar `npm install` para instalar todas las dependecias del proyecto, luego ejecutar `ng serve -o`.
