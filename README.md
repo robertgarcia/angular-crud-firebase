@@ -1,27 +1,20 @@
 # HeroesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Ejemplo de un CRUD con Firebase y Angular.
+
+## Firebase
+
+Se necesita crear una cuenta en [firebase](https://firebase.google.com/), cuando la cuenta este lista hacer lo siguiente :
+
+1. Crear un proyecto.
+2. Crear una base de datos en modo de prueba.
+3. Verificar que las reglas esten con valor true. `{ rules : { ".read" : true, ".write" : true } }`
+4. Crear una colección en la base datos llamada `heroes`. (Nota: Pueden cambiar el nombre de la colección pero asegurense de cambiarlo tambien en el heroes.service.ts).
+
+## Angular
+
+Deben copiar el link de la base de datos que aparece en firebase y agregarlo en los environments para poder hacer las peticiones HTTP.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Ejecutar `npm install` para instalar todas las dependecias del proyecto, luego ejectar `ng serve -o`.
