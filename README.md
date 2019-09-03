@@ -1,4 +1,4 @@
-# HeroesApp
+# CRUD Angular - Firebase
 
 Ejemplo de un CRUD con Firebase y Angular.
 
